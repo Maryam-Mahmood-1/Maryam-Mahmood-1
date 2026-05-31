@@ -9,13 +9,13 @@
 
 ---
 
-## 🧭 About
+## About
 
 Deploying autonomous systems into spaces shared with humans demands a shift from heuristic safety to **provable guarantees**. When a high-torque manipulator operates alongside a person, constraint satisfaction cannot be approximate. My current research focuses on the formal and statistical frameworks that make such deployment defensible — validated through end-to-end implementation on real hardware.
 
 ---
 
-## 🔬 Research
+## Research
 
 **CBF-QP safety filters.** Forward-invariant safe sets via Control Barrier Functions. A min-norm QP at each timestep keeps the nominal controller's intent while enforcing the safety constraint. Validated across 8 systems — inverted pendulum, cart-pole, Dubins car, quadrotor, ACC, and 2/3/7-DOF manipulators.
 
@@ -25,7 +25,7 @@ Deploying autonomous systems into spaces shared with humans demands a shift from
 
 ---
 
-## 🛠️ Projects
+## Projects
 
 | Repository                                                                               | Description                                                                                         |
 | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -34,20 +34,41 @@ Deploying autonomous systems into spaces shared with humans demands a shift from
 
 ---
 
-## ⚙️ Stack
+## Technical Skills
 
-```text
-Control   │ CBF-QP · CLF-QP · Conformal Prediction · PID · Cascaded PI · Computed Torque
-Robotics  │ ROS 2 · ros2_control · MoveIt 2 · Gazebo · URDF/Xacro · Pinocchio · MuJoCo
-Hardware  │ MyActuator RMD-X8/X6 · CAN/SocketCAN · ESP32 · MCP2515 · Intel RealSense D435i
-Languages │ Python · C++ · MATLAB · Bash
-Tools     │ Docker · Git · LaTeX · Ubuntu 22.04
-Theory    │ Lyapunov Stability · Set Invariance · Convex Optimization · Stochastic Systems
-```
+### Core Languages & Frameworks
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,cpp,c,matlab" />
+</p>
+
+* Python, C++, C, MATLAB
+* Control, robotics, simulation, and research prototyping
+
+### Robotics & Control
+
+<p>
+  <img src="https://skillicons.dev/icons?i=ros,ubuntu,linux" />
+</p>
+
+* CBF-QP, CLF-QP, conformal prediction
+* ROS 2, `ros2_control`, MoveIt 2, Gazebo
+* URDF/Xacro, Pinocchio, MuJoCo
+* Lyapunov stability, set invariance, convex optimization
+
+### Tools & Systems
+
+<p>
+  <img src="https://skillicons.dev/icons?i=docker,git,github,vscode,latex,bash" />
+</p>
+
+* Docker, Git, VS Code, LaTeX, Bash
+* Ubuntu 22.04, SocketCAN, ESP32, MCP2515
+* MyActuator RMD-X8/X6, Intel RealSense D435i
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Maryam-Mahmood-1&show_icons=true&theme=gruvbox&hide_border=true" height="165" />
@@ -55,7 +76,7 @@ Theory    │ Lyapunov Stability · Set Invariance · Convex Optimization · Sto
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Maryam-Mahmood-1&theme=gruvbox&hide_border=true" height="165" />
+  <img src="https://streak-stats.demolab.com?user=Maryam-Mahmood-1&theme=gruvbox&hide_border=true" height="165" />
 </p>
 
 <!--
