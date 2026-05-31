@@ -45,14 +45,24 @@ Deploying autonomous systems into spaces shared with humans demands a shift from
 * Python, C++, C, MATLAB
 * Control, robotics, simulation, and research prototyping
 
+### ML/AI
+
+<p>
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn" />
+</p>
+
+* PyTorch, TensorFlow, scikit-learn
+* Learned dynamics, SINDy/PINN models, conformal calibration
+* Vision and ML-heavy robotics research
+
 ### Robotics & Control
 
 <p>
   <img src="https://skillicons.dev/icons?i=ros,ubuntu,linux" />
 </p>
 
-* CBF-QP, CLF-QP, conformal prediction
 * ROS 2, `ros2_control`, MoveIt 2, Gazebo
+* CBF-QP, CLF-QP, conformal prediction
 * URDF/Xacro, Pinocchio, MuJoCo
 * Lyapunov stability, set invariance, convex optimization
 
@@ -65,7 +75,6 @@ Deploying autonomous systems into spaces shared with humans demands a shift from
 * Docker, Git, VS Code, LaTeX, Bash
 * Ubuntu 22.04, SocketCAN, ESP32, MCP2515
 * MyActuator RMD-X8/X6, Intel RealSense D435i
-
 ---
 
 ## GitHub Stats
