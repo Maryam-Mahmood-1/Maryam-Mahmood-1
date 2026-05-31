@@ -47,11 +47,15 @@ Theory    │ Lyapunov Stability · Set Invariance · Convex Optimization · Sto
 
 ---
 
-## GitHub
+## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Maryam-Mahmood-1&show_icons=true&theme=gruvbox&hide_border=true" height="155" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Maryam-Mahmood-1&layout=compact&theme=gruvbox&hide_border=true" height="155" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Maryam-Mahmood-1&show_icons=true&theme=gruvbox&hide_border=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Maryam-Mahmood-1&layout=compact&theme=gruvbox&hide_border=true" height="165" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Maryam-Mahmood-1&theme=gruvbox&hide_border=true" height="165" />
 </p>
 
 <!--
