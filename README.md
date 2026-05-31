@@ -9,13 +9,13 @@
 
 ---
 
-## About
+## 🧭 About
 
 Deploying autonomous systems into spaces shared with humans demands a shift from heuristic safety to **provable guarantees**. When a high-torque manipulator operates alongside a person, constraint satisfaction cannot be approximate. My current research focuses on the formal and statistical frameworks that make such deployment defensible — validated through end-to-end implementation on real hardware.
 
 ---
 
-## Research
+## 🔬 Research
 
 **CBF-QP safety filters.** Forward-invariant safe sets via Control Barrier Functions. A min-norm QP at each timestep keeps the nominal controller's intent while enforcing the safety constraint. Validated across 8 systems — inverted pendulum, cart-pole, Dubins car, quadrotor, ACC, and 2/3/7-DOF manipulators.
 
@@ -25,7 +25,7 @@ Deploying autonomous systems into spaces shared with humans demands a shift from
 
 ---
 
-## Projects
+## 🛠️ Projects
 
 | Repository                                                                               | Description                                                                                         |
 | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -34,7 +34,7 @@ Deploying autonomous systems into spaces shared with humans demands a shift from
 
 ---
 
-## Stack
+## ⚙️ Stack
 
 ```text
 Control   │ CBF-QP · CLF-QP · Conformal Prediction · PID · Cascaded PI · Computed Torque
@@ -47,7 +47,7 @@ Theory    │ Lyapunov Stability · Set Invariance · Convex Optimization · Sto
 
 ---
 
-## GitHub Stats
+## 📊 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Maryam-Mahmood-1&show_icons=true&theme=gruvbox&hide_border=true" height="165" />
