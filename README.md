@@ -11,13 +11,13 @@
 
 ## About
 
-Deploying autonomous systems into spaces shared with humans demands a shift from heuristic safety to **provable guarantees**. When a high-torque manipulator operates alongside a person, constraint satisfaction cannot be approximate. My current research focuses on the formal and statistical frameworks that make such deployment defensible — validated through end-to-end implementation on real hardware.
+Deploying autonomous systems into spaces shared with humans demands a shift from heuristic safety to **provable guarantees**. When a high-torque manipulator operates alongside a person, constraint satisfaction cannot be approximate. My current research focuses on the formal and statistical frameworks that make such deployment defensible — validating through end-to-end implementation on real hardware.
 
 ---
 
 ## Research
 
-**CBF-QP safety filters.** Forward-invariant safe sets via Control Barrier Functions. A min-norm QP at each timestep keeps the nominal controller's intent while enforcing the safety constraint. Validated across 8 systems — inverted pendulum, cart-pole, Dubins car, quadrotor, ACC, and 2/3/7-DOF manipulators.
+**CBF-QP safety filters.** Forward-invariant safe sets via Control Barrier Functions. A min-norm QP at each timestep keeps the nominal controller's intent while enforcing the safety constraint. Validated across 8 systems in simulation — inverted pendulum, cart-pole, Dubins car, quadrotor, ACC, and 2/3/7-DOF manipulators.
 
 **Conformal prediction for safety.** I'm currently wrapping learned dynamics models with a distribution-free robustness margin `q_{1-δ}`, calibrated from held-out trajectories, that tightens the CLF decrease condition. No parametric uncertainty model assumed.
 
