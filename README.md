@@ -10,9 +10,7 @@
 
 ## About
 
-I research formal methods for making autonomous systems provably safe — specifically optimization-based safety filters (CBFs and CLFs) that provide formal guarantees of constraint satisfaction and convergence. I'm currently extending these guarantees into the statistical regime via conformal prediction, producing distribution-free safety bounds without assuming a known uncertainty model.
-
-I implement these methods on a custom 7-DOF robotic arm — so the guarantees aren't only on paper, they run on hardware.
+Deploying autonomous systems into spaces shared with humans demands a shift from heuristic safety to provable guarantees. When a high-torque manipulator operates alongside a person, constraint satisfaction cannot be approximate. My current research focuses on the formal and statistical frameworks that make such deployment defensible — validated through end-to-end implementation on real hardware.
 
 ---
 
