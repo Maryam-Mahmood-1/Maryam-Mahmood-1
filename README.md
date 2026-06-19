@@ -85,7 +85,7 @@ Deploying autonomous systems into spaces shared with humans demands a shift from
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Maryam-Mahmood-1&theme=gruvbox&hide_border=true" height="165" />
+  <img src="https://streak-stats.demolab.com?user=Maryam-Mahmood-1&theme=gruvbox&hide_border=true&timezone=Asia/Karachi" height="165" />
 </p>
 
 <!--
