@@ -80,7 +80,7 @@ Deploying autonomous systems into spaces shared with humans demands a shift from
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Maryam-Mahmood-1&show_icons=true&theme=gruvbox&hide_border=true&v=2" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Maryam-Mahmood-1&show_icons=true&theme=gruvbox&hide_border=true&v=1" height="165" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Maryam-Mahmood-1&layout=compact&theme=gruvbox&hide_border=true&v=2" height="165" />
 </p>
 
