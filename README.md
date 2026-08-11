@@ -17,6 +17,7 @@ My current research focuses on the formal and statistical frameworks that make s
 
 ---
 
+<!--
 ## Research
 
 ### CBF-QP Safety Filters
@@ -64,6 +65,7 @@ I authored the complete ROS 2 stack, including:
 | [`daadbot_manipulator`](https://github.com/Maryam-Mahmood-1/daadbot_manipulator) | Full ROS 2 stack for a custom 7-DOF arm — `ros2_control`, MoveIt 2, Gazebo, and hardware interface |
 
 ---
+-->
 
 ## Technical Skills
 
@@ -142,12 +144,12 @@ I authored the complete ROS 2 stack, including:
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=Maryam-Mahmood-1&show_icons=true&theme=gruvbox&hide_border=true"
+    src="./profile/stats.svg"
     height="165"
     alt="Maryam's GitHub Stats"
   />
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Maryam-Mahmood-1&layout=compact&theme=gruvbox&hide_border=true"
+    src="./profile/top-langs.svg"
     height="165"
     alt="Maryam's Top Languages"
   />
