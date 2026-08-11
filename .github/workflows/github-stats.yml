@@ -1,14 +1,14 @@
 name: Update GitHub Stats
 
 on:
-  # Run once every hour at minute 17.
+  # Run every hour at minute 17
   schedule:
     - cron: "17 * * * *"
 
-  # Allow manual runs from the Actions tab.
+  # Allow manual execution
   workflow_dispatch:
 
-  # Also run whenever this workflow file itself is changed.
+  # Run when this workflow is edited
   push:
     paths:
       - ".github/workflows/github-stats.yml"
@@ -16,6 +16,7 @@ on:
 permissions:
   contents: write
 
+# Prevent two stats workflows from trying to write at the same time
 concurrency:
   group: github-profile-stats
   cancel-in-progress: true
@@ -25,11 +26,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # ----------------------------------------------------------
+      # Checkout repository
+      # ----------------------------------------------------------
       - name: Checkout repository
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
       # ----------------------------------------------------------
-      # Main GitHub stats card
+      # GitHub stats
       # ----------------------------------------------------------
       - name: Generate GitHub stats
         uses: stats-organization/github-readme-stats-action@v2
@@ -41,7 +47,7 @@ jobs:
           fail_on_error: true
 
       # ----------------------------------------------------------
-      # Top languages card
+      # Top languages
       # ----------------------------------------------------------
       - name: Generate top languages
         uses: stats-organization/github-readme-stats-action@v2
@@ -53,7 +59,7 @@ jobs:
           fail_on_error: true
 
       # ----------------------------------------------------------
-      # GitHub streak card
+      # GitHub streak
       # ----------------------------------------------------------
       - name: Generate GitHub streak
         uses: DenverCoder1/github-readme-streak-stats@v1.7.0
@@ -63,7 +69,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       # ----------------------------------------------------------
-      # Commit generated SVG files only when something changed
+      # Commit generated files
       # ----------------------------------------------------------
       - name: Commit generated stats
         run: |
@@ -74,9 +80,16 @@ jobs:
           git add profile/top-langs.svg
           git add profile/streak.svg
 
+          # Stop here when nothing changed
           if git diff --cached --quiet; then
             echo "No stats changes to commit."
-          else
-            git commit -m "Update GitHub profile stats"
-            git push
+            exit 0
           fi
+
+          git commit -m "Update GitHub profile stats"
+
+          # The remote may have changed while the cards were being generated.
+          # Fetch those changes and replay our stats commit on top.
+          git pull --rebase origin main
+
+          git push origin main
