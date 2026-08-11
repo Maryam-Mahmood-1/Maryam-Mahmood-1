@@ -2,8 +2,8 @@ name: Update GitHub Stats
 
 on:
   schedule:
-    - cron: "0 3 * * *"   # Runs once per day
-  workflow_dispatch:       # Lets you run it manually
+    - cron: "17 * * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
